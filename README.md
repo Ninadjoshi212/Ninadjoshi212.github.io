@@ -10,17 +10,3 @@
 </p>
 <hr>
 <br>
-<p align="center" width="45">
-    
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ninadjoshi212&show_icons=true&theme=radical)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Ninadjoshi212&theme=blueberry&date_format=M%20j%5B%2C%20Y%5D)
-
-![Github Trophy](https://github-profile-trophy.vercel.app/?username=Ninadjoshi212&theme=discord)
-
-![Github Activity Graph](https://activity-graph.herokuapp.com/graph?username=Ninadjoshi212&theme=xcode)
-
-![GitHub Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ninadjoshi212&layout=compact&theme=blue-green)
-
-</p>
-

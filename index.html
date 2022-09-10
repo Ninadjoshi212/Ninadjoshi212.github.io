@@ -1,34 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ninad Joshi-Portfolio</title>
-    <link rel="stylesheet" href="./index.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ninad-Joshi-Portfolio</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script
+      src="https://kit.fontawesome.com/34483ec9ab.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- HEADER -->
 
-    <header class="sticky">
-        <a href="#" class="logo">Ninad Joshi</a>
-        <div class="menu">
-            <ul>
-                <li><a href="#main">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#services">Education</a></li>
-                <li><a href="#work">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <header class="navbar">
+      <a href="index.html" class="logo">Ninad Joshi</a>
+      <div class="menu-btn"></div>
+      <div class="navigation">
+        <ul>
+          <li><a href="#main">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Education</a></li>
+          <li><a href="#work">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </header>
 
+    <!-- MAIN content -->
+
     <main>
-        
+      <section class="main" id="main">
         <div class="content">
-            <p>Main Content</p>
+          <h2>Hello, I'm<br /><span>Ninad Joshi</span></h2>
+
+          <div class="animated-text">
+            <h3>Java Backend Developer</h3>
+          </div>
+
+          <!-- <a class="btn" target="_blank" href="https://drive.google.com/file/d/1VW08atO_mZ1m_Oov8K41HiW_V44jNfvK/view?usp=sharing" attributes-list download >resume</a> -->
+          <a
+            class="btn"
+            href="./Assest/NinadJoshi.pdf"
+            download="Ninad-Joshi-Resume"
+            >resume</a
+          >
+
+          <div class="social">
+            <a target="_blank" href="https://github.com/Ninadjoshi212"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a target="_blank" href="www.linkedin.com/in/ninadjoshi212"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="title reveal">
+          <h2 class="section-title">About Me</h2>
         </div>
 
+        <div class="content">
+          <div class="column col-left reveal">
+            <div class="img-card">
+              <img
+                src="https://lh3.googleusercontent.com/bPB9PNyW6kgP5WuCMUSnQqsuKEy24T3Nnjxj2SntDAMeokDc4diZpO40xS1XKRtbPzI=w2400"
+                alt="NinadJoshi"
+              />
+            </div>
+          </div>
+
+          <div class="column col-right reveal">
+            <h2 class="head2 content-title">Hey There! I'm Ninad Joshi</h2>
+
+            <p class="paragraph-text">
+              Aspiring full-stack developer with a specialization in Java
+              backend, having a strong desire to build and design the backend
+              and complete projects with unwavering dedication.
+            </p>
+
+            <p class="paragraph-text">
+              Looking forward to sharpening my skills in a challenging
+              environment.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
-    
-</body>
+  </body>
 </html>

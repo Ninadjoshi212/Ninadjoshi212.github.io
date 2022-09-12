@@ -401,7 +401,7 @@ section {
   }
 }
 
-@media all and (min-width: 451px) and (max-width: 1150px)  {
+@media all and (min-width: 500px) and (max-width: 1150px)  {
   header {
     padding: 12px 20px;
   }

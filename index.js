@@ -13,11 +13,14 @@ menuBtn.addEventListener("click", () => {
   navigation.classList.toggle("active");
 });
 
-//navigation sidebar menu item click
+//navigation menu item click
 navigationItems.forEach((navigationItem) => {
   navigationItem.addEventListener("click", () => {
     menuBtn.classList.remove("active");
     navigation.classList.remove("active");
+    let current = document.getElementsByClassName("clicked");
+    current[0].className = current[0].className.replace("clicked", "");
+    this.className += " clicked";
   });
 });
 

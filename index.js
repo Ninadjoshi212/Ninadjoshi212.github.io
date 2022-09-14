@@ -18,11 +18,16 @@ navigationItems.forEach((navigationItem) => {
   navigationItem.addEventListener("click", () => {
     menuBtn.classList.remove("active");
     navigation.classList.remove("active");
-    let current = document.getElementsByClassName("clicked");
-    current[0].className = current[0].className.replace("clicked", "");
-    this.className += " clicked";
   });
 });
+
+for (var i = 0; i < navigationItems.length; i++) {
+  navigationItems[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("clicked");
+    current[0].className = current[0].className.replace(" clicked", "");
+    this.className += " clicked";
+  });
+}
 
  //reveal elements on scroll from top
  window.addEventListener("scroll", reveal);

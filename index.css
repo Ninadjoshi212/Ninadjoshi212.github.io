@@ -269,11 +269,11 @@ section {
   color: #0a2440;
 }
 
-.skills {
+.techstack {
   background: #000016;
 }
 
-.skills .content {
+.techstack .content {
   position: relative;
   width: 100%;
   display: flex;
@@ -282,38 +282,38 @@ section {
   margin-top: 20px;
 }
 
-.skills .content .col-left {
+.techstack .content .col-left {
   position: relative;
   width: 46%;
 }
 
-.skills .content .col-left .content-title {
+.techstack .content .col-left .content-title {
   margin-bottom: 20px;
 }
 
-.skills .content .col-right {
+.techstack .content .col-right {
   position: relative;
   width: 46%;
 }
 
-.skills .content .col-right .bar {
+.techstack .content .col-right .bar {
   margin-bottom: 15px;
   padding: 10px;
 }
 
-.skills .content .col-right .bar .info {
+.techstack .content .col-right .bar .info {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 5px;
 }
 
-.skills .content .col-right .bar .info span {
+.techstack .content .col-right .bar .info span {
   font-size: 18px;
   font-weight: 500;
 }
 
-.skills .content .col-right .bar .line {
+.techstack .content .col-right .bar .line {
   position: relative;
   width: 100%;
   height: 15px;
@@ -321,7 +321,7 @@ section {
   border-radius: 2px;
 }
 
-.skills .content .col-right .bar .line:before {
+.techstack .content .col-right .bar .line:before {
   content: "";
   position: absolute;
   height: 100%;
@@ -330,27 +330,27 @@ section {
   border-radius: 2px;
 }
 
-.skills .content .col-right .bar .html:before {
+.techstack .content .col-right .bar .html:before {
   width: 95%;
   background: #e45126;
 }
 
-.skills .content .col-right .bar .css:before {
+.techstack .content .col-right .bar .css:before {
   width: 90%;
   background: #0c73b8;
 }
 
-.skills .content .col-right .bar .javascript:before {
+.techstack .content .col-right .bar .javascript:before {
   width: 80%;
   background: #e3a324;
 }
 
-.skills .content .col-right .bar .jquery:before {
+.techstack .content .col-right .bar .jquery:before {
   width: 80%;
   background: #30dd6d;
 }
 
-.skills .content .col-right .bar .php:before {
+.techstack .content .col-right .bar .php:before {
   width: 75%;
   background: #6d7eb8;
 }
@@ -365,6 +365,52 @@ section {
 #skicon {
   height: 15%;
   width: 18%;
+}
+
+/* skills section styling */
+
+.skills {
+  width: 100%;
+}
+
+.skill-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills .skill-content .card {
+  width: 20%;
+  background: #b0d2da;
+  text-align: center;
+  padding: 30px 0px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid #0a2440;
+}
+.skills .skill-content .card:hover {
+  background-color: #0a2440;
+  color: #fff;
+}
+.skills .skill-content .card .box {
+  transition: all 0.3s ease;
+}
+.skills .skill-content .card:hover .box {
+  transform: scale(1.05);
+}
+.skills .skill-content .card i {
+  font-size: 50px;
+  color: rgb(226, 28, 67);
+  transition: color 0.3s ease;
+}
+.skills .skill-content .card:hover i {
+  color: #fff;
+}
+.skills .skill-content .card .text {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0 7px 0;
 }
 
 .mainDiv {
@@ -382,7 +428,7 @@ section {
 }
 
 .proj {
-  background: #fff;
+  background-color: #0a2440;
 }
 
 .proj .content {
@@ -422,7 +468,7 @@ section {
 }
 
 #projectDes {
-  color: #0a2440;
+  color: #fff;
   font-size: 16px;
   margin-left: 6%;
 }
@@ -608,16 +654,16 @@ section {
     min-height: 1000px;
   }
 
-  .skills .content {
+  .techstack .content {
     flex-direction: column;
   }
 
-  .skills .content .column {
+  .techstack .content .column {
     position: relative;
     width: 100%;
   }
 
-  .skills .content .col-right {
+  .techstack .content .col-right {
     margin-top: 40px;
   }
 
@@ -702,6 +748,27 @@ section {
 
   .about .content .col-left .img-card {
     min-height: 510px;
+  }
+
+  .skill-content {
+    flex-direction: column;
+  }
+
+  .skills .skill-content .card{
+    width: 50%;
+    margin-bottom: 5px;
+  }
+
+  .skills .skill-content .card i {
+    font-size: 30px;
+  }
+  .skills .skill-content .card:hover i {
+    color: #fff;
+  }
+  .skills .skill-content .card .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0 7px 0;
   }
 
   .mainDiv{

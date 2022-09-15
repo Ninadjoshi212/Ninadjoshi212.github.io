@@ -12,9 +12,45 @@
 <br>
 <h3 align="center">A Passionate Java Backend Developer eager to learn and develop,
 has a passion for Web development with a keen interest in exploring new areas in coding.</h3>
-<p align ="center"> <img width="830" height="400" src="https://camo.githubusercontent.com/5ddf73ad3a205111cf8c686f687fc216c2946a75005718c8da5b837ad9de78c9/68747470733a2f2f7468756d62732e6766796361742e636f6d2f4576696c4e657874446576696c666973682d736d616c6c2e676966" alt="anand"/> </p>
+<p align ="center"> <img width="830" height="400" src="https://camo.githubusercontent.com/5ddf73ad3a205111cf8c686f687fc216c2946a75005718c8da5b837ad9de78c9/68747470733a2f2f7468756d62732e6766796361742e636f6d2f4576696c4e657874446576696c666973682d736d616c6c2e676966" alt="NinadJoshi"/> </p>
 
-<p><img align="left"  src="https://github-readme-stats.vercel.app/api/top-langs?username=Ninadjoshi212&show_icons=true&locale=en&layout=compact" alt="NinadJoshi" /></p>
+<h3>Open source projects</h3>
+<table>
+  <thead align="center">
+    <tr border: none;>
+      <td><b>🎁 Projects</b></td>
+      <td><b>⭐ Stars</b></td>
+      <td><b>📚 Forks</b></td>
+      <td><b>🛎 Issues</b></td>
+      <td><b>📬 Pull requests</b></td>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+      <td><a href="https://github.com/Ninadjoshi212/nordstrom"><b>NORDSTORM website clone</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/Ninadjoshi212/nordstrom?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/Ninadjoshi212/nordstrom?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/Ninadjoshi212/nordstrom?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Ninadjoshi212/nordstrom?style=flat-square&labelColor=343b41"/></td>
+      </tr>
+	  <tr>
+      <td><a href="https://github.com/Ninadjoshi212/Bewakoof_website_Clone"><b>BEWAKOOF Website Clone</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/Ninadjoshi212/Bewakoof_website_Clone?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/Ninadjoshi212/Bewakoof_website_Clone?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/Ninadjoshi212/Bewakoof_website_Clone?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Ninadjoshi212/Bewakoof_website_Clone?style=flat-square&labelColor=343b41"/></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Ninadjoshi212/Stylecraze-Website-Clone"><b>STYLECRAZE Website Clone</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/Ninadjoshi212/Stylecraze-Website-Clone?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/Ninadjoshi212/Stylecraze-Website-Clone?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/Ninadjoshi212/Stylecraze-Website-Clone?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Ninadjoshi212/Stylecraze-Website-Clone?style=flat-square&labelColor=343b41"/></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img align="center"  src="https://github-readme-stats.vercel.app/api/top-langs?username=Ninadjoshi212&show_icons=true&locale=en&layout=compact" alt="NinadJoshi" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Ninadjoshi212&show_icons=true&locale=en" alt="NinadJoshi" /></p>
 

@@ -413,6 +413,10 @@ section {
   margin: 10px 0 7px 0;
 }
 
+.list{
+  list-style-type: none;
+}
+
 .mainDiv {
   display: flex;
   justify-content: space-between;

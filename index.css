@@ -593,17 +593,6 @@ section {
   pointer-events: auto;
 }
 
-.statics{
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-}
-
-.contact-icon{
-  border: 0px;
-}
-
 .reveal {
   position: relative;
   transform: translateY(50px);
@@ -734,10 +723,6 @@ section {
     min-height: 1000px;
   }
 
-  #h22{
-    text-align: center;
-  }
-
   .techstack .content {
     flex-direction: column;
   }
@@ -802,19 +787,6 @@ section {
   .inv span{
     text-align: center;
     font-size: 30px;
-  }
-
-  .statics{
-    flex-direction: column;
-    gap: 5px;
-  }
-
-  .cal{
-    overflow: hidden;
-  }
-
-  .calendar{
-    overflow: hidden;
   }
 
 }

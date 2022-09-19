@@ -22,40 +22,54 @@ navigationItems.forEach((navigationItem) => {
 });
 
 for (var i = 0; i < navigationItems.length; i++) {
-  navigationItems[i].addEventListener("click", function () {
+  navigationItems[i].addEventListener("click", function() {
     var current = document.getElementsByClassName("clicked");
     current[0].className = current[0].className.replace(" clicked", "");
     this.className += " clicked";
   });
 }
 
-//reveal elements on scroll from top
-window.addEventListener("scroll", reveal);
-
-function reveal() {
-  var reveals = document.querySelectorAll(".reveal");
-
-  for (var i = 0; i < reveals.length; i++) {
-    var windowHeight = window.innerHeight;
-    var revealTop = reveals[i].getBoundingClientRect().top;
-    var revealPoint = 50;
-
-    if (revealTop < windowHeight - revealPoint) {
-      reveals[i].classList.add("active");
-    } else if (revealTop > windowHeight - revealPoint) {
+ //reveal elements on scroll from top
+ window.addEventListener("scroll", reveal);
+  
+ function reveal(){
+   var reveals = document.querySelectorAll(".reveal");
+ 
+   for(var i = 0; i < reveals.length; i++){
+     var windowHeight = window.innerHeight;
+     var revealTop = reveals[i].getBoundingClientRect().top;
+     var revealPoint = 50;
+ 
+     if(revealTop < windowHeight - revealPoint){
+       reveals[i].classList.add("active");
+     }
+     else if(revealTop > windowHeight - revealPoint){
       reveals[i].classList.remove("active");
-    }
-  }
-}
+     }
+   }
+ }
 
-//scroll back to top on click
-const scrollBtn = document.querySelector(".scrollToTop-btn");
+ //scroll back to top on click
+ const scrollBtn = document.querySelector(".scrollToTop-btn");
+  
+ window.addEventListener("scroll", function(){
+   scrollBtn.classList.toggle("active", window.scrollY > 500);
+ });
 
-window.addEventListener("scroll", function () {
-  scrollBtn.classList.toggle("active", window.scrollY > 500);
-});
+   
+   scrollBtn.addEventListener("click", () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  });
 
-scrollBtn.addEventListener("click", () => {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-});
+  GitHubCalendar(".calendar", "Ninadjoshi212");
+
+    // or enable responsive functionality:
+    GitHubCalendar(".calendar", "Ninadjoshi212", { responsive: true });
+
+    // Use a proxy
+    GitHubCalendar(".calendar", "Ninadjoshi212", {
+       proxy (username) {
+         return fetch(`https://your-proxy.com/github?user=${Ninadjoshi212}`)
+       }
+    }).then(r => r.text())

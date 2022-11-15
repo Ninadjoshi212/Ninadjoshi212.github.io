@@ -186,8 +186,8 @@ let img1 = document.querySelector("#pro-img1");
 let imgNum1 = 0;
 
 let imgArr1 = [
-    "./resources/nordstrom-clone-product.png",
-    "./resources/nordstrom-clone-homepage.png",
+    "./resources/images/nordstrom-clone-product.png",
+    "./resources/images/nordstrom-clone-homepage.png",
 ]
 
 

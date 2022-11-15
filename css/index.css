@@ -521,18 +521,12 @@ body {
   height: fit-content;
   margin: auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   /* flex-direction: column; */
   flex-wrap: wrap;
   margin-bottom: 60px;
 
-}
-
-
-.stats>div:last-child img {
-  margin-bottom: 20px;
-  width: 100%;
 }
 
 @media screen and (max-width: 1250px) {

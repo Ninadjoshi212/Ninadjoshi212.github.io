@@ -1,389 +1,386 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ninad-Joshi-Portfolio</title>
-    <link rel="stylesheet" href="./index.css">
+    <title>Ninad Joshi</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./github-calendar-responsive.css" />
+    <link rel="stylesheet" href="./statistics.css">
     <script src="https://kit.fontawesome.com/34483ec9ab.js" crossorigin="anonymous"></script>
 
-<script
-src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
-</script>
-
-<link
-rel="stylesheet"
-href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-/>
-
 </head>
+
 <body>
-    
-    <!-- HEADER -->
-    
-    <header class="navbar">
-        <a href="index.html" class="logo">Ninad Joshi</a>
-        <div class="menu-btn"></div>
-        <div class="navigation">
-            <ul id="links">
-                <li><a href="#main" class="navlinks clicked">Home</a></li>
-                <li><a href="#about" class="navlinks">About</a></li>
-                <li><a href="#techstack" class="navlinks">Tech Stack</a></li>
-                <li><a href="#skills" class="navlinks">Skills</a></li>
-                <li><a href="#proj" class="navlinks">Projects</a></li>
-                <li><a href="#stat" class="navlinks">Statistics</a></li>
-                <li><a href="#contact" class="navlinks">Contact</a></li>
-                <li><a href="./Assest/Ninad_Joshi_Resume.pdf" class="navlinks" attributes-list download="Ninad-Joshi-Resume" >Resume</a></li>
+    <div class="scrollToTop-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#" id="navbar__logo">
+                <h4 class="transition">Ninad Joshi</h4>
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#skills" class="navbar__links" id="skills-page">Skills</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#projects" class="navbar__links" id="projects-page">Projects</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#contact" class="navbar__links" id="contact-page">Contact</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/resources/Ninad_Joshi_Resume.pdf" download="" class="navbar__links"
+                        id="resume-page">Resume</a>
+                </li>
             </ul>
         </div>
-    </header>
+    </nav>
+
+
+    <!-- mainframe section  -->
+    <div class="frame" id="namepic">
+        <div id="namepic1half">
+            <div class="hero" id="home">
+                <div class="hero__container">
+                    <h2 class="name_heading">Hi, I am Ninad Joshi,</h2>
+                    <h2 class="hero__heading">
+                        <span class="type" data-wait="2000"
+                            data-words='["Java Backend Developer","Full Stack Web Developer"]'></span>
+                    </h2>
+
+                </div>
+            </div>
+            <a href="./resources/Ninad_Joshi_Resume.pdf" download="" id="btn_anchor"><button id="d_resume">Resume
+                    <i class="fa fa-download"></i></button></a>
+
+
+
+            <div id="connect">
+                <a href="https://github.com/Ninadjoshi212" target="_blank" class="social__icon--link"><i
+                        class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/Ninadjoshi212" target="_blank" class="social__icon--link"><i
+                        class="fa fa-linkedin-square"></i></a>
+                <a href="mailto:ninadjoshi212@gmail.com" target="_blank" class="social__icon--link"><i
+                        class="fa fa-envelope-square"></i></a>
+            </div>
+
+        </div>
+
+        <div id="namepic2half">
+            <div class="box">
+                <img src="./resources/pic.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div class="frame" id="about">
+
+        <div>
+            <div id="about_img"><img src="https://mattfarley.ca/img/hero-devices.svg" alt=""></div>
+            <div id="about_detail">
+                <h4 class="title">About me</h4>
+                <p>An aspiring Java backend developer with a strong interest in projects requiring conceptual and
+                    analytical thinking. Enjoys designing applications with different functionalities and keeping end
+                    users in mind. Seeking a challenging role in the field of software development that will offer an
+                    opportunity for further development of my abilities, skills and knowledge in an organization.</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="frame" id="skills">
+        <h4 class="title">Tech Stack</h4>
+        <div id="techStacks">
+            <div class="tech-card">
+                <div class="tech-card-logo"><img src="./resources/html.svg" alt=""></div>
+                <div class="tech-card-name">HTML</div>
+            </div>
+
+            <div class="tech-card">
+                <div class="tech-card-logo"><img src="./resources/css.svg" alt=""></div>
+                <div class="tech-card-name">CSS</div>
+            </div>
+
+            <div class="tech-card">
+                <div class="tech-card-logo"><img src="./resources/java.png" alt=""></div>
+                <div class="tech-card-name">Java</div>
+            </div>
+
+            <div class="tech-card">
+                <div class="tech-card-logo"><img src="./resources/MySQL_textlogo.svg.png" alt=""
+                        style="margin-top:30px"></div>
+                <div class="tech-card-name">MySQL</div>
+            </div>
+
+            <div class="tech-card">
+                <div class="tech-card-logo"><img src="./resources/springboot.png" alt=""></div>
+                <div class="tech-card-name">Spring Boot</div>
+            </div>
+
+            <div class="tech-card">
+                <div class="tech-card-logo"><img src="./resources/hibernate_icon_whitebkg.svg" alt=""></div>
+                <div class="tech-card-name">Hibernate</div>
+            </div>
+
+            <div class="tech-card">
+                <div class="tech-card-logo"><img src="./resources/js.svg" alt=""></div>
+                <div class="tech-card-name">JavaScript</div>
+            </div>
+
+            <div class="tech-card">
+                <div class="tech-card-logo"><img src="./resources/git.svg" alt=""></div>
+                <div class="tech-card-name">Git</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="frame" id="soft_skills">
+        <h4 class="title">Skills</h4>
+        <div id="soft_div">
+            <div class="tech-card">
+                <div class="tech-card-logo"><img src="./resources/Frontend.jpg" alt=""></div>
+                <div class="tech-card-name">Frontend</div>
+                <div>
+                    <ol class="list">
+                        <li class="itm">HTML5</li>
+                        <li class="itm">CSS3</li>
+                        <li class="itm">JavaScript</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="tech-card">
+                <div class="tech-card-logo"><img src="./resources/Backend.jpg" alt=""></div>
+                <div class="tech-card-name">Backend</div>
+                <div>
+                    <ol class="list">
+                        <li class="itm">Spring</li>
+                        <li class="itm">Hibernate</li>
+                        <li class="itm">Sql</li>
+                        <li class="itm">RDBMS</li>
+                        <li class="itm">RESTFul web services</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="tech-card">
+                <div class="tech-card-logo"><img src="./resources/DSA.jpg" alt=""></div>
+                <div class="tech-card-name">DSA</div>
+                <div>
+                    <ol class="list">
+                        <li class="itm">Problem Solving</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="tech-card">
+                <div class="tech-card-logo"><img src="./resources/Communication.jpg" alt=""></div>
+                <div class="tech-card-name">Communication</div>
+                <div>
+                    <ol class="list">
+                        <li class="itm">Presentation</li>
+                        <li class="itm">Collaboration</li>
+                        <li class="itm">Work Ethics</li>
+                        <li class="itm">Adaptability</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="frame" id="projects">
+        <h4 class="title">Projects</h4>
+        <div class="pro-card">
+            <div class="l-pro-card">
+                <img class="pro-img" id="pro-img1" src="./resources/nordstrom-clone-homepage.png" alt="Nordstorm">
+            </div>
+            <div class="r-pro-card">
+                <h3 class="pro-title">Clone of nordstorm.com</h3>
+                <p class="pro-desc">
+                    This is the clone of Nordstrom e-commerce website, which is an American luxury department store
+                    chain headquartered in Seattle. Nordstrom's product range includes an extensive catalog of apparel,
+                    footwear, accessories, etc.
+                </p>
+                <p class="pro-desc">
+                    <span class="pro-lower-title">Tech Stack : </span>
+                    HTML5 | CSS3 | Javascript
+                </p>
+                <p class="pro-desc">A collaborative project, built in 5 days by a team of 6 members.</p>
+
+                <div class="btn-div">
+                    <a href="https://github.com/Ninadjoshi212/Nordstrom-Website-Clone" target="_blank"><button
+                            class="pro-btn">Source code <i class="fa fa-external-link"></i></button></a>
+
+                    <a href="https://nordstrom-clone-245a2a.netlify.app/" target="_blank"><button class="pro-btn">Live
+                            <i class="fa fa-external-link"></i></button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="pro-card">
+            <div class="l-pro-card">
+                <img class="pro-img" id="pro-img2" src="./resources/bewakoof-clone-homepage.png" alt="Bewakoof">
+            </div>
+            <div class="r-pro-card">
+                <h3 class="pro-title">Clone of Bewakoof.com</h3>
+                <p class="pro-desc">
+                    Bewakoof.com is an internet-first brand of multi-category fashion products catering to both men and
+                    women. Its catalog includes apparel, footwear, bags, etc. The company also sells custom printed
+                    products.
+                </p>
+                <p class="pro-desc">
+                    <span class="pro-lower-title">Tech Stack : </span>
+                    HTML5 | CSS3 | Javascript
+                </p>
+                <p class="pro-desc">A collaborative project, built in 5 days by a team of 6 members.</p>
+                <div class="btn-div">
+                    <a href="https://github.com/Ninadjoshi212/Bewakoof_website_Clone" target="_blank"><button
+                            class="pro-btn">Source code <i class="fa fa-external-link"></i></button></a>
+
+                    <a href="https://funny-selkie-392078.netlify.app/" target="_blank"><button class="pro-btn">Live <i
+                                class="fa fa-external-link"></i></button></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="frame" id="statistics">
+        <h4 class="title">Statistics</h4>
+        <!-- <div id="stat-card">
+            <div id="stat_card_div">
+                <iframe id="stat-card-iframe" loading="lazy"
+                    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFMErkxTmk&#x2F;view?embed"
+                    allowfullscreen="allowfullscreen" allow="fullscreen">
+                </iframe>
+            </div>
+
+        </div> -->
+
+        <div class="calendar">
+            <!-- Loading stuff -->
+            Loading the data.
+        </div>
+
+        <div class="stats">
+            <div class="statsrow">
+                <img src="https://github-readme-stats.vercel.app/api?username=Ninadjoshi212&theme=dark&hide_border=false&include_all_commits=false&count_private=false"
+                    alt="">
+            </div>
+            <div class="statsrow">
+                <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ninadjoshi212&theme=dark&hide_border=false"
+                alt="">
+            </div>
+            <div class="statsrow">
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ninadjoshi212&theme=dark&hide_border=false&include_all_commits=true&count_private=false"
+                alt="">
+            </div>
+                
+               
+
+            
+        </div>
+    </div>
+
+    <div id="contact">
+        <h4 class="title">Contact Me</h4>
+<!-- 
+        <div class="gotpro">
+            <p>Got a project? Reach out and let's work together on something exciting. Big or small. Mobile or web.</p>
+        </div> -->
+
+        <div id="con-main-card">
+            <a href="https://linkedin.com/in/Ninadjoshi212" target="_blank" class="hvr-forward">
+                <div class="con-card transition">
+                    <i class="fa fa-linkedin-square" target="_blank"></i>
+                    <h6> LinkedIn</h6>
+                </div>
+            </a>
+            <a href="https://github.com/Ninadjoshi212/" target="_blank" class="hvr-forward">
+                <div class="con-card transition">
+                    <i class="fa fa-github" target="_blank"></i>
+                    <h6> Github</h6>
+                </div>
+            </a>
+            <a href="mailto:ninadjoshi212@gmail.com" target="_blank" class="hvr-forward">
+                <div class="con-card transition">
+                    <i class="fa fa-envelope" target="_blank"></i>
+                    <h6> Email</h6>
+                </div>
+            </a>
+            <a href="tel:+919309172790" target="_blank" class="hvr-forward">
+                <div class="con-card transition">
+                    <i class="fa fa-phone" target="_blank"></i>
+                    <h6> +91 9309172790</h6>
+                </div>
+            </a>
+
+        </div>
+
+        <div class="connectMe">
+            <form action="https://getform.io/f/2e5553e4-ece4-42ca-87ae-308f03c6b6ee" method="POST">
+                <div class="row">
+                    <div class="col">
+                        <label for="name">Name :</label>
+                    </div>
+                    <div class="col">
+                        <input type="text" id="name" name="name" placeholder="Your name.." required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label for="email">Email :</label>
+                    </div>
+                    <div class="col">
+                        <input type="text" id="email" name="email" placeholder="Your Email Id.." required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label for="subject">Message :</label>
+                    </div>
+                    <div class="col">
+                        <textarea id="subject" name="subject" placeholder="Write something.."
+                            style="height:200px"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+
+        
+    </div>
     
-    <!-- MAIN content -->
+    <footer>
+        <p class="copyright">© 2022 All rights reserved</p>
+    </footer>
 
-    <main>
-
-        <!-- Main / home section start -->
-        <section class="main" id="main">
-            
-            <div class="content">
-                <h2>Hello, I'm<br><span>Ninad Joshi</span></h2>
-                
-                <div class="animated-text">
-                    <h3>Java Backend Developer</h3>                    
-                </div>
-                
-                <a class="btn" href="./Assest/Ninad_Joshi_Resume.pdf" attributes-list download="Ninad-Joshi-Resume" >Resume</a>
-
-                <div class="social">
-                    <a target="_blank" href="https://github.com/Ninadjoshi212"><i class="fab fa-github"></i></a>
-                    <a target="_blank" href="https://www.linkedin.com/in/ninadjoshi212"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
-            
-        </section>
-
-        <!-- About section start -->
-        <section class="about" id="about">
-            
-            <div class="title reveal">
-                
-                <h2 class="section-title">About Me</h2>
-            
-            </div>
-            
-            <div class="content">
-                
-                <div class="column col-left reveal">
-                    
-                    <div class="img-card">
-                        
-                        <img src="https://lh4.googleusercontent.com/Ufp6mSpsdP1t131oYMrTBRp8rXc8fsw371z0-3Py1PYcReJfgdQtOWoEJgwsug4nqjg=w2400" alt="NinadJoshi">
-
-                    </div>
-                
-                </div>
-                
-                <div class="column col-right reveal">
-                    
-                    <h2 class="head2 content-title">Hey There! I'm Ninad Joshi</h2>
-                    
-                    <p class="paragraph-text">Aspiring full-stack developer with a specialization in Java backend, having a strong desire to build and design the backend and complete projects with unwavering dedication.</p>
-                    
-                    <p class="paragraph-text">Looking forward to sharpening my skills in a challenging environment.</p>
-        
-                </div>
-            
-            </div>
-        
-        </section>
-
-        <!-- Techstack section start -->
-        <section class="techstack" id="techstack">
-            <div class="title reveal">
-                <h2 class="section-title">Tech Stack</h2>
-            </div>
-            <div class="content">
-                <div class="column col-left reveal">
-                    <h2 id="techHead" class="content-title">What I Provide</h2>
-                    <p class="techPara">I develop web applications using languages and frameworks like Java, Hibernate, MySQL, Spring Boot, Maven, HTML, CSS, Java Script. <br><br>I am always excited by new technologies, therefore, I do not hesitate to take up coding task.</p>
-                </div>
-                <div class="column col-right reveal">
-                   <div>
-                    <img class="iconImage" id="skicon" src="https://www.megaleechers.com/storage/Java-Runtime-Environment-Icon.png" alt="">
-
-                    <img class="iconImage" src="https://thepiguy.altervista.org/wp-content/uploads/2017/06/mysql-logo.jpg" alt="">
-
-                    <img class="iconImage" id="skicon" src="https://miro.medium.com/max/693/1*WKDhlqWTjGmhTHm39AKqLA.png" alt="">
-
-                    <img class="iconImage" id="skicon" src="https://miro.medium.com/max/700/0*RAAGH4xnHwM_rHIq.jpg" alt="">
-
-                    <img class="iconImage" id="skicon" src="https://e4developer.com/wp-content/uploads/2018/01/spring-boot.png" alt="">
-
-                    <img class="iconImage" id="skicon" src="https://www.kindpng.com/picc/m/128-1280187_github-logo-png-github-transparent-png.png" alt="">
-
-                     <img class="iconImage" src="https://cdn0.iconfinder.com/data/icons/social-network-9/50/22-512.png" alt="">
-
-                    <img class="iconImage" src="https://cdn-icons-png.flaticon.com/512/919/919826.png" alt="">
-
-                    <img class="iconImage" id="skicon" src="https://www.pngkey.com/png/full/550-5509803_js-logo-javascript-logo-circle-png.png" alt="">
-                   </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Skills section start -->
-        <section class="skills" id="skills">
-            <div class="title reveal">
-                <h2 class="section-title">Skills</h2>
-            </div>
-
-                <div class="skill-content">
-
-                    <div class="card">
-                        <div class="box">
-                            <i class="fas fa-paint-brush"></i>
-                            <div class="text">FrontEnd Technologies</div>
-                            <div>
-                                <ol class="list">
-                                    <li class="itm">HTML5</li>
-                                    <li class="itm">CSS3</li>
-                                    <li class="itm">JavaScript</li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="card">
-                        <div class="box">
-                            <i class="fas fa-code"></i>
-                            <div class="text">Backend Technologies</div>
-                            <div>
-                                <ol class="list">
-                                    <li class="itm">Spring</li>
-                                    <li class="itm">Hibernate</li>
-                                    <li class="itm">Sql</li>
-                                    <li class="itm">RDBMS</li>
-                                    <li class="itm">RESTFul web services</li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card">  
-                        <div class="box">
-                            <i class="fas fa-chart-line"></i>
-                            <div class="text">Data Structure and Algorithm</div>
-                            <div>
-                                <ol class="list">
-                                    <li class="itm">Problem Solving</li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <div class="card">
-                        <div class="box">
-                            <i class="fas fa-users"></i>
-                            <div class="text">Communication Skills</div>
-                            <div>
-                                <ol class="list">
-                                    <li class="itm">Presentation</li>
-                                    <li class="itm">Collaboration</li>
-                                    <li class="itm">Work Ethics</li>
-                                    <li class="itm">Adaptability</li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-        </section>
-
-        <!-- Project section start -->
-        <section class="proj" id="proj">
-            <div class="title reveal">
-                <h2 class="section-title">My Projects</h2>
-            </div>
-            <div id="myProjects" class="content">
-                <div class="mainDiv reveal">
-                    <div class="">
-                        <img class="projectImage" src="https://lh5.googleusercontent.com/OBEpKMmEh-E2P-9mqq62EYbZMJkYdOU4Cu4xkYRkrU2suBQnJToofQX2zyVSqq3ZDfs=w2400" alt="">
-                    </div>
-                    <div id="projectDes">
-                        <h1 id="hcolor">NORDSTORM clone</h1>
-                        <p id="des2">This is the clone of Nordstrom e-commerce website, which is an American luxury department store chain headquartered in Seattle</p>
-                        <h3 id="head2">Features:</h3>
-                        
-                        1. Landing page with dropdown Menu<br> 
-                        2. Product page with Filtering and Sorting<br> 
-                        3. Payment-gateway,Sign-up/Log-in page<br> 
-                        
-
-                        <h3 id="head2">Tech Stack:</h3>
-                        HTML , CSS , JavaScript<br>
-
-                        <div class="btnIs">
-                            <button id="btn1" class="btns"><a target="_blank" rel="noreferrer" class="atag" href="https://nordstrom-clone-245a2a.netlify.app/">Deploy</a></button>
-                            <button id="btn2" class="btns"><a target="_blank" rel="noreferrer" class="atag" href="https://github.com/Ninadjoshi212/nordstrom">Code</a></button>
-                        </div>
-                        
-                    </div>
-                   
-                </div>
-            </div>
-            <div id="myProjects" class="content">
-                <div class="mainDiv reveal">
-                    <div class="">
-                        <img class="projectImage" src="https://lh6.googleusercontent.com/BhFw6M6LWQ-3Vzfa67DFM_UflhHEK2_jV999pSAydfAMVR3Krl7lA4UyZQ2hVvK5Wx0=w2400" alt="">
-                    </div>
-                    <div id="projectDes">
-                        <h1 id="hcolor">BEWAKOOF Clone</h1>
-                        <p id="des2">This is the clone of Bewakoof e-commerce website, focus on creative and top-notch Clothing and Accessories.</p>
-                        <h3 id="head2">Features:</h3>
-                        
-                        1. Landing page with Categories section<br> 
-                        2. Navbar with Search functionality<br> 
-                        3. Product, Payment and Sign-up/Log-in page<br> 
-                        
-
-                        <h3 id="head2">Tech Stack:</h3>
-                        HTML , CSS , Advance JavaScript<br>
-
-                        <div class="btnIs">
-                            <button id="btn1" class="btns"><a target="_blank" rel="noreferrer" class="atag" href="https://funny-selkie-392078.netlify.app/">Deploy</a></button>
-                            <button id="btn2" class="btns"><a target="_blank" rel="noreferrer" class="atag" href="https://github.com/Ninadjoshi212/Bewakoof_website_Clone">Code</a></button>
-                        </div>
-                        
-                    </div>
-                   
-                </div>
-            </div>
-        </section>
-
-        <section class="stat" id="stat">
-
-            <div class="title reveal">
-                <h2 class="section-title">Statistics</h2>
-            </div>
-            
-            <div class="statics">
-                
-                <div class="sub-statics1">
-                <img align="center" src="https://github-readme-stats.vercel.app/api?username=Ninadjoshi212&show_icons=true&locale=en" alt="NinadJoshi" />
-                </div>
-
-                <div class="sub-statics1">
-                    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Ninadjoshi212&" alt="NinadJoshi" />
-                </div>
-                
-            </div>
-
-        </section>
-
-        <!-- Calendar section start -->
-        <section class="cal" id="cal">
-            <div class="title reveal">
-                <h2 class="section-title">GitHub Calendar</h2>
-            </div>
-
-            <div class="calendar">
-                <!-- Loading stuff -->
-                Loading the data just for you.
-            </div>
-            
-        </section>
-
-        <!-- Contact section start -->
-        <section class="contact" id="contact">
-            <div class="title reveal">
-                <h2 class="section-title">Contact Me</h2>
-            </div>
-
-            <div class="content">
-                <div class="rowIs">
-                    <div class="card reveal" id="fontosm" >
-                        <div class="contact-icon">
-                            <a target="_blank" rel="noreferrer" id="cicin" href="https://www.linkedin.com/in/ninadjoshi212/">
-                            <img src="data:image/png;base64,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" alt="" height="100%" width="100%">
-                        </div>
-                        <div class="info">
-                            <h3>Linkedin</h3>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card reveal" id="fontosm">
-                        <div class="contact-icon">
-                            <a target="_blank" rel="noreferrer" id="cicin" href="https://ninadjoshi212@gmail.com">
-                            <img src="https://uxwing.com/wp-content/themes/uxwing/download/communication-chat-call/email-round-icon.png" alt="" height="100%" width="100%">
-                        </div>
-                        <div class="info">
-                            <h3>Email Id</h3>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card reveal" id="fontosm">
-                        <div class="contact-icon">
-                            <a target="_blank" rel="noreferrer" id="cicin" href="https://github.com/Ninadjoshi212">
-                            <img src="https://icons-for-free.com/iconfiles/png/512/github+icon-1320168274457504277.png" alt="" height="100%" width="100%">
-                        </div>
-                        <div class="info">
-                            <h3>Git Hub</h3>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="connectMe">
-                    <form action="https://getform.io/f/2e5553e4-ece4-42ca-87ae-308f03c6b6ee" method="POST">
-                      <div class="row">
-                        <div class="col-25">
-                          <label for="name">Name :</label>
-                        </div>
-                        <div class="col-75">
-                          <input type="text" id="name" name="name" placeholder="Your name.." required>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-25">
-                          <label for="email">Email :</label>
-                        </div>
-                        <div class="col-75">
-                          <input type="text" id="email" name="email" placeholder="Your Email Id.." required>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-25">
-                          <label for="subject">Message :</label>
-                        </div>
-                        <div class="col-75">
-                          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <input type="submit" value="Submit">
-                      </div>
-                    </form>
-                  </div>
-
-                <div class="inv">
-                    <img src="https://pnggrid.com/wp-content/uploads/2021/12/Email-Free-Icon.png" width="10%" alt="" >
-                    <span><a href="https://ninadjoshi212@gmail.com" class="atag">ninadjoshi212@gmail.com</a></span>
-                    <img src="https://static.vecteezy.com/system/resources/previews/003/720/498/original/phone-icon-telephone-icon-symbol-for-app-and-messenger-vector.jpg" width="10%" alt="">
-                   <span><a href="tel:+919309172790" class="atag">+91-9309172790</a></span>
-        
-                </div>
-                
-            </div>
-            <div class="scrollToTop-btn">
-                <i class="fas fa-angle-up"></i>
-            </div>
-        </section>
-
-    </main>
-
-    
 </body>
+
 </html>
-<script src="./index.js"></script>
+
+
+<script src="./github-calendar.min.js"></script>
+<script>
+    GitHubCalendar(".calendar", "Ninadjoshi212", { responsive: true });
+</script>
+<script src="index.js"></script>
